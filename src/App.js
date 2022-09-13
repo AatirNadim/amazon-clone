@@ -13,6 +13,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { UseStateValue } from "./StateProvider";
 import Payment from "./Payment";
 
+
 //we need a listener to keep track of who is signed in at the current instance
 function App() {
   const [{}, dispatch] = UseStateValue();
