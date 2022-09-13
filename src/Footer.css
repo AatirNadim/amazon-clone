@@ -1,0 +1,19 @@
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 0px;
+    justify-content: space-around;
+    width: 100%;
+    color: white;
+    background-color: rgb(56, 54, 54);
+}
+
+.footer-div .box1 {
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3px;
+}

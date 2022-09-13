@@ -11,6 +11,7 @@ import { useEffect } from "react";
 import { auth } from "./Firebase";
 import { onAuthStateChanged } from "firebase/auth";
 import { UseStateValue } from "./StateProvider";
+import Payment from "./Payment";
 
 //we need a listener to keep track of who is signed in at the current instance
 function App() {
@@ -77,6 +78,14 @@ function App() {
               </>
             }
           />
+          <Route path = '/payment' element = {
+            <>
+            <Header/>
+            <Payment/>
+
+            </>
+
+          }/>
           {/* Home */}
           {/* Default route should be at the bottom */}
           {/* <Route path = '/'> */}

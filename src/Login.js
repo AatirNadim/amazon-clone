@@ -15,7 +15,7 @@ const Login = () => {
 
   //   const handleLogin = () => {};
   //   function handleLogin() {}
-  
+  //are the same thing
 
   const signIn = (e) => {
     e.preventDefault();
